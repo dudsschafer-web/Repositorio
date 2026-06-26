@@ -66,7 +66,7 @@ public class Retangulo extends JFrame {
         contentPane.add(textAltura);
 
         JLabel lblPA = new JLabel("Informe a altura:");
-        lblPA.setBounds(76, 11, 186, 14);
+        lblPA.setBounds(86, 11, 186, 14);
         contentPane.add(lblPA);
 
         textBase = new JTextField();
@@ -86,11 +86,11 @@ public class Retangulo extends JFrame {
         contentPane.add(lblPerimetro);
 
         JButton btnArea = new JButton("Calcular área");
-        btnArea.setBounds(96, 133, 157, 23);
+        btnArea.setBounds(86, 133, 157, 23);
         contentPane.add(btnArea);
 
         JButton btnPerimetro = new JButton("Calcular perímetro");
-        btnPerimetro.setBounds(122, 192, 157, 23);
+        btnPerimetro.setBounds(86, 192, 157, 23);
         contentPane.add(btnPerimetro);
 
     
